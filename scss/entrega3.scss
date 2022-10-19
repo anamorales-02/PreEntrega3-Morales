@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  padding: 5px;
+  flex: auto;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 10000px;
+}
+
+.principio {}
+
+* body {
+  background-color: rgb(206, 98, 98);
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: rgb(143, 16, 16);
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 h2 h3 {
+  letter-spacing: 1px;
+}
+
+ul {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.menucont .ul {
+  width: 70%;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+  justify-content: space-between;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header .menu .menulinks {
+  list-style: none;
+}
+
+.menu .menulinks {
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.menubarra {
+  display: none;
+}
+
+.bg-light {
+  background-color: rgb(143, 16, 16) !important;
+}
+
+/* se pisa con importat para pisar el estilo importado*/
+
+a:hover {
+  color: rgb(51, 43, 43);
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+.navbar {
+  min-height: 50px;
+}
+
+#navbarSupportedContent a:hover {
+  background: rgb(206, 98, 98);
+}
+
+ul a {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+
+  :hover {
+    color: rgb(255, 75, 75);
+  }
+}
+
+.titulo {
+  text-align: center;
+  color: #000000;
+  text-shadow: -3px 3px #872c2c, -3px -3px #a14545, 3px -3px #7c3434, 3px 3px #933131, 6px 6px #8f6161;
+}
+
+#descripcion p {
+  text-align: center;
+}
+
+.contenedor2 {
+  background: url(../img/imgprincipal.jpg);
+  height: 55px;
+  background-attachment: contain;
+  height: 150px;
+  background-size: cover;
+  display: flex;
+  flex-flow: column-reverse;
+
+  img {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(50 50);
+  }
+}
+
+.subtitulosalasfav {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(143, 16, 16);
+}
+
+.favoritas {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+
+  img {
+    width: 100%;
+    margin: auto;
+  }
+  :hover {
+    background: rgb(143, 16, 16);
+    transition: 0.3s;
+}
+}
+
+.salasfav {
+  width: 33.333%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+@media (max-width: 992px) {
+  .salasfav {
+    width: 100%;
+  }
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px 0px;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(48, 28, 28);
+}
+
+.ubicacion {
+  clear: both;
+  background-color: rgb(129, 13, 13);
+}
+
+.social {
+  display: flex;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100em;
+}
+
+@media screen and (max-width: 480pxpx) {
+  .favoritas {
+    flex-basis: 100%;
+  }
+}
+
+.fa {
+  color: black;
+  font-size: 22px;
+}
+
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+
+  &:hover {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+main h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: rgb(143, 16, 16);
+}
+
+footer {
+  display: inline;
+  float: inline-end;
+}
+
+/* preguntasfrecuentes*/
+
+.container-faq {
+  .title-faq {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .item-faq {
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    .question {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(43, 51, 122, 0.2);
+      padding: 20px 20px 20px 80px;
+      transition: .4s;
+
+      .more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.2);
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: .4s;
+
+        &:hover {
+          box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.4);
+        }
+      }
+    }
+
+    .answer {
+      position: relative;
+      padding: 0 20px 0 80px;
+      overflow: hidden;
+      transition: .4s;
+
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+.separacion {
+  width: 5px;
+}

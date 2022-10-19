@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/* line 3, ../../Entrega2/scss/entrega3.scss */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  padding: 5px;
+  flex: auto;
+}
+
+/* line 12, ../../Entrega2/scss/entrega3.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 16, ../../Entrega2/scss/entrega3.scss */
+.contenedor {
+  width: 100%;
+  max-width: 10000px;
+}
+
+/* line 23, ../../Entrega2/scss/entrega3.scss */
+* body {
+  background-color: #ce6262;
+  flex-wrap: wrap;
+}
+
+/* line 28, ../../Entrega2/scss/entrega3.scss */
+header {
+  background-color: #8f1010;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 34, ../../Entrega2/scss/entrega3.scss */
+h1 h2 h3 {
+  letter-spacing: 1px;
+}
+
+/* line 38, ../../Entrega2/scss/entrega3.scss */
+ul {
+  display: flex;
+}
+
+/* line 42, ../../Entrega2/scss/entrega3.scss */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+/* line 49, ../../Entrega2/scss/entrega3.scss */
+.menucont .ul {
+  width: 70%;
+}
+
+/* line 53, ../../Entrega2/scss/entrega3.scss */
+.logo img {
+  height: 70px;
+  width: auto;
+  justify-content: space-between;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 61, ../../Entrega2/scss/entrega3.scss */
+.header .menu .menulinks {
+  list-style: none;
+}
+
+/* line 65, ../../Entrega2/scss/entrega3.scss */
+.menu .menulinks {
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+/* line 71, ../../Entrega2/scss/entrega3.scss */
+.menubarra {
+  display: none;
+}
+
+/* line 75, ../../Entrega2/scss/entrega3.scss */
+.bg-light {
+  background-color: #8f1010 !important;
+}
+
+/* se pisa con importat para pisar el estilo importado*/
+/* line 81, ../../Entrega2/scss/entrega3.scss */
+a:hover {
+  color: #332b2b;
+}
+
+/* line 85, ../../Entrega2/scss/entrega3.scss */
+li:last-child a {
+  margin-right: 0;
+}
+
+/* line 89, ../../Entrega2/scss/entrega3.scss */
+.navbar {
+  min-height: 50px;
+}
+
+/* line 93, ../../Entrega2/scss/entrega3.scss */
+#navbarSupportedContent a:hover {
+  background: #ce6262;
+}
+
+/* line 97, ../../Entrega2/scss/entrega3.scss */
+ul a {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+
+/* line 104, ../../Entrega2/scss/entrega3.scss */
+ul a :hover {
+  color: #ff4b4b;
+}
+
+/* line 109, ../../Entrega2/scss/entrega3.scss */
+.titulo {
+  text-align: center;
+  color: #000000;
+  text-shadow: -3px 3px #872c2c, -3px -3px #a14545, 3px -3px #7c3434, 3px 3px #933131, 6px 6px #8f6161;
+}
+
+/* line 115, ../../Entrega2/scss/entrega3.scss */
+#descripcion p {
+  text-align: center;
+}
+
+/* line 119, ../../Entrega2/scss/entrega3.scss */
+.contenedor2 {
+  background: url(../img/imgprincipal.jpg);
+  height: 55px;
+  background-attachment: contain;
+  height: 150px;
+  background-size: cover;
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+/* line 128, ../../Entrega2/scss/entrega3.scss */
+.contenedor2 img {
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+
+/* line 134, ../../Entrega2/scss/entrega3.scss */
+.contenedor2 h1 {
+  font-size: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(50 50);
+}
+
+/* line 142, ../../Entrega2/scss/entrega3.scss */
+.subtitulosalasfav {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #8f1010;
+}
+
+/* line 149, ../../Entrega2/scss/entrega3.scss */
+.favoritas {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+/* line 155, ../../Entrega2/scss/entrega3.scss */
+.favoritas img {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 159, ../../Entrega2/scss/entrega3.scss */
+.favoritas :hover {
+  background: #8f1010;
+  transition: 0.3s;
+}
+
+/* line 165, ../../Entrega2/scss/entrega3.scss */
+.salasfav {
+  width: 33.333%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+@media (max-width: 992px) {
+  /* line 173, ../../Entrega2/scss/entrega3.scss */
+  .salasfav {
+    width: 100%;
+  }
+}
+
+/* line 178, ../../Entrega2/scss/entrega3.scss */
+h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px 0px;
+}
+
+/* line 185, ../../Entrega2/scss/entrega3.scss */
+p {
+  font-size: 15px;
+  color: #301c1c;
+}
+
+/* line 190, ../../Entrega2/scss/entrega3.scss */
+.ubicacion {
+  clear: both;
+  background-color: #810d0d;
+}
+
+/* line 195, ../../Entrega2/scss/entrega3.scss */
+.social {
+  display: flex;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100em;
+}
+
+@media screen and (max-width: 480pxpx) {
+  /* line 204, ../../Entrega2/scss/entrega3.scss */
+  .favoritas {
+    flex-basis: 100%;
+  }
+}
+
+/* line 209, ../../Entrega2/scss/entrega3.scss */
+.fa {
+  color: black;
+  font-size: 22px;
+}
+
+/* line 214, ../../Entrega2/scss/entrega3.scss */
+.close {
+  font-size: 1.5rem;
+}
+
+/* line 218, ../../Entrega2/scss/entrega3.scss */
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+/* line 224, ../../Entrega2/scss/entrega3.scss */
+.col-12 img:hover {
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 230, ../../Entrega2/scss/entrega3.scss */
+main h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: #8f1010;
+}
+
+/* line 238, ../../Entrega2/scss/entrega3.scss */
+footer {
+  display: inline;
+  float: inline-end;
+}
+
+/* preguntasfrecuentes*/
+/* line 246, ../../Entrega2/scss/entrega3.scss */
+.container-faq .title-faq {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* line 252, ../../Entrega2/scss/entrega3.scss */
+.container-faq .item-faq {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* line 256, ../../Entrega2/scss/entrega3.scss */
+.container-faq .item-faq .question {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(43, 51, 122, 0.2);
+  padding: 20px 20px 20px 80px;
+  transition: .4s;
+}
+
+/* line 265, ../../Entrega2/scss/entrega3.scss */
+.container-faq .item-faq .question .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .4s;
+}
+
+/* line 276, ../../Entrega2/scss/entrega3.scss */
+.container-faq .item-faq .question .more:hover {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.4);
+}
+
+/* line 282, ../../Entrega2/scss/entrega3.scss */
+.container-faq .item-faq .answer {
+  position: relative;
+  padding: 0 20px 0 80px;
+  overflow: hidden;
+  transition: .4s;
+}
+
+/* line 288, ../../Entrega2/scss/entrega3.scss */
+.container-faq .item-faq .answer p {
+  font-size: 1.3rem;
+}
+
+/* line 295, ../../Entrega2/scss/entrega3.scss */
+.separacion {
+  width: 5px;
+}
+
+/*# sourceMappingURL=entrega3.css.map */
